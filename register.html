@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    
+                               <!-- navbar -->
+    <div class="flex justify-between items-center bg-blue-500 px-[6vw]">
+        <a class="btn btn-ghost text-xl font-mono font-semibold text-white">Personal Blogging App</a>
+
+    <div>
+        <button id="login-btn" class="btn btn-sm bg-blue-500 border-none text-white hover:bg-blue-600">Login</button>
+    </div>
+
+    </div>
+
+
+                    <!--  heading   -->
+    
+<div class="navbar bg-base-100 px-[6vw] shadow-sm">
+ <h1 class="font-sans text-[2vw] text-black font-bold">Register User </h1>
+</div>
+
+
+
+                    <!--register form -->
+
+<div class="flex items-center justify-center ">
+     <div class="bg-white p-8 rounded-2xl shadow-2xl w-96 mt-[10vh]">
+          <form id="form">
+            
+            <div class="mb-4">
+                <input type="text" id="first-name" class=" w-full px-3 py-2 border border-gray-300 rounded-md " placeholder="First Name">
+              </div>
+
+              <div class="mb-4"> 
+                <input type="text" id="last-name" class="w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Last Name">
+              </div>
+
+            <div class="mb-4">               
+              <input type="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Enter your email">
+            </div>
+
+            <div class="mb-6">
+              
+              <input type="password" id="password" class="w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Enter your password">
+            </div>
+            
+
+            <div class=" mt-2 flex justify-center">
+
+              <button id="register" class="btn btn-sm btn-primary bg-blue-500 border-none text-white ">Resgister</button>
+
+            </div>
+            <div class="flex justify-center mt-2">
+              <a class=" link link-primary" href="./login.html">Already a user? please login</a>
+            </div>
+            
+
+          </form>
+</div>
+</div>
+      
+
+
+<script type="module" src="register.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
