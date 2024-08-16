@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    
+                               <!-- navbar -->
+    <div class="flex justify-between items-center bg-blue-500 px-[6vw]">
+        <a class="btn btn-ghost text-xl font-mono font-semibold text-white">Personal Blogging App</a>
+
+    <div>
+        <button id="register-btn" class="btn btn-sm bg-blue-500 border-none text-white hover:bg-blue-600">Register</button>
+    </div>
+
+    </div>
+
+
+                    <!--  heading   -->
+    
+<div class="navbar bg-base-100 px-[6vw] shadow-sm">
+ <h1 class="font-sans text-[2vw] text-black font-bold">Login</h1>
+</div>
+
+
+
+                    <!--login form -->
+
+<div class="flex items-center justify-center ">
+     <div class="bg-white p-8 rounded-2xl shadow-2xl w-96 mt-[17vh]">
+          <form id="form">
+    
+            <div class="mb-4">               
+              <input type="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Enter your email">
+            </div>
+
+            <div class="mb-6">  
+              <input type="password" id="password" class="w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Enter your password">
+            </div>
+            
+
+            <div class=" mt-2 flex justify-center">
+
+              <button id="login" class="btn btn-sm btn-primary bg-blue-500 border-none text-white ">Login</button>
+
+            </div>
+            <div class="flex justify-center mt-2">
+              <a class=" link link-primary" href="./register.html">Not a user? please register first</a>
+            </div>
+            
+
+          </form>
+</div>
+</div>
+      
+
+<script type="module" src="login.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
